@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+}
+
+:root {
+  --Soft-orange: hsl(35, 77%, 62%);
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayish-blue: hsl(233, 8%, 79%);
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+body {
+  background: var(--Off-white);
+  font-family: "Inter", sans-serif;
+  margin: 0 10rem 0 10rem;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0rem 2rem 0rem;
+}
+
+.navbar .logo a {
+  font-size: 30px;
+}
+
+.navbar a {
+  color: var(--Grayish-blue);
+  padding-left: 2rem;
+  font-size: 15px;
+}
+
+.navbar a:hover {
+  color: var(--Soft-orange);
+}
+
+.navbar .logo a {
+  font-size: 30px;
+}
+
+/* main */
+
+main {
+  display: flex;
+}
+.content {
+  padding-right: 1.5rem;
+  width: 70%;
+}
+
+.container .text {
+  padding: 2rem 0 3rem 0;
+}
+
+.imageBig {
+  width: 100%;
+}
+
+.onlyText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textBig {
+  font-size: 35px;
+  font-weight: 800;
+  width: 50%;
+  line-height: 1;
+}
+
+.miniText {
+  line-height: 1.5;
+  width: 49%;
+  font-size: 15px;
+}
+
+.miniText p {
+  color: var(--Dark-grayish-blue);
+}
+.miniText button {
+  margin-top: 25px;
+  padding: 15px 30px;
+  font-size: 15px;
+  letter-spacing: 5px;
+  background: tomato;
+  color: var(--Off-white);
+  border: none;
+}
+
+.miniText button:hover {
+  cursor: pointer;
+  background: var(--Very-dark-blue);
+}
+
+/* review */
+
+.review {
+  display: flex;
+}
+
+.review img {
+  width: 85px;
+}
+
+.review .card {
+  display: flex;
+  width: 100%;
+}
+
+.review .article {
+  padding-left: 20px;
+  padding-right: 10px;
+  line-height: 1.3;
+}
+
+.review .article h2 {
+  color: var(--Very-dark-blue);
+}
+
+.review .article p {
+  color: var(--Dark-grayish-blue);
+  font-size: 15px;
+}
+
+/* aside */
+aside {
+  width: 34%;
+}
+.new {
+  background: var(--Very-dark-blue);
+  color: var(--Grayish-blue);
+  padding: 20px;
+}
+
+.new h1 {
+  color: var(--Soft-orange);
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+
+.new {
+  color: var(--Off-white);
+  line-height: 1.8;
+}
+
+.new h3:hover {
+  color: var(--Soft-orange);
+  cursor: pointer;
+}
+
+.new p {
+  color: var(--Grayish-blue);
+  font-size: 15px;
+}
+
+.new hr {
+  margin: 25px 0;
+}
+
+/* footer */
+footer {
+  background: var(--Very-dark-blue);
+  padding: 20px;
+  margin-top: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--Off-white);
+}
+
+.attribution a {
+  color: var(--Grayish-blue);
+}
